@@ -35,4 +35,5 @@ print ("We'd have {} beans, {} jars, and {} crates.".format(Beans, Jars, Crates)
 StartPoint = StartPoint / 10
 
 print ("We can also do that this way:")
-print ("We'd have {} beans, {} jars, and {} crates.".format(secret_formula(StartPoint)))
+# the asterisk does something sexy. I need to learn what.
+print ("We'd have {} beans, {} jars, and {} crates.".format(*secret_formula(StartPoint)))
